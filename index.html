@@ -3,138 +3,95 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lilith Walker Ilustraciones | Portafolio</title>
-  <meta name="description" content="Portafolio de ilustraciones: galería, proyectos y contacto. Taller de Zentangle como actividad aparte." />
+  <title>Lilith Walker Ilustraciones</title>
+  <meta name="description" content="Portafolio de Lilith Walker: ilustraciones oscuras, oníricas y detallistas. Servicios y Taller Zentangle." />
   <link rel="stylesheet" href="styles.css" />
+  <!-- Tipografía oscura y elegante -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
       <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
         <a href="index.html" class="brand-name">Lilith Walker Ilustraciones</a>
       </div>
       <nav class="menu">
         <a href="#galeria">Galería</a>
-        <a href="#sobre-mi">Sobre mí</a>Lilith Walker nació el 2 de junio de 1983 en Río Mayo, Chubut, Argentina. Desde temprana edad mostró una especial sensibilidad hacia el arte oscuro y lo onírico, creando una estética personal marcada por lo introspectivo, la fantasía y lo detallista. Inició realizando retratos a lápiz, para luego introducirse en el mundo del dibujo artístico, donde aprendió a desarrollar diferentes técnicas que, con el tiempo, fue implementando en sus composiciones. Como ilustradora tradicional, se fue perfeccionado a través del uso de lápices grafito, colores, sombras, biromes, estilógrafos y tinta china, herramientas que le permiten explorar texturas, contrastes y crear atmósferas tanto fantásticas como inquietantes.
-Su obra está profundamente influenciada por el universo sombrío de Junji Ito y la elegancia visual de Katsura Hoshino, lo que se ve reflejado en cada una de sus ilustraciones que oscilan entre lo onírico, lo fantástico y lo perturbador. Lilith construye mundos donde se entrelazan lo emocional y lo simbólico, invitando al espectador a observar hasta el detalle más minúsculo.
-
-        <a href="#servicios">Servicios</a>Ilustradora tradicional/ Talleres virtuales
-        <a href="#contacto" class="cta">Contacto</a>lilithwalkermua@hmail.com
-        <a href="zentangle.html" class="alt">Taller Zentangle</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
       </nav>
     </div>
   </header>
 
   <main>
+    <!-- Presentación -->
     <section class="hero container">
       <div class="hero-text">
-        <h1>Imágenes que cuentan historias</h1>
-        <p class="lead">Portafolio de ilustración: editoriales, personajes y patrones. Explora mi trabajo y descubrí el Taller de Dibujo Zentangle como actividad aparte.</p>
-        <div class="actions">
-          <a href="#galeria" class="btn primary">Ver galería</a>
-          <a href="zentangle.html" class="btn">Taller Zentangle</a>
-        </div>
-      </div>
-      <div class="hero-card">
-        <h3>Últimos proyectos</h3>
-        <ul class="list">
-                 </ul>
+        <h1>Lilith Walker Ilustraciones</h1>
+        <p class="lead">
+          Lilith Walker nació el 2 de junio de 1983 en Río Mayo, Chubut, Argentina. Desde temprana edad mostró una especial sensibilidad hacia el arte oscuro y lo onírico, creando una estética personal marcada por lo introspectivo, la fantasía y lo detallista.
+        </p>
+        <p>
+          Inició realizando retratos a lápiz, para luego introducirse en el mundo del dibujo artístico, donde aprendió a desarrollar diferentes técnicas que, con el tiempo, fue implementando en sus composiciones. Como ilustradora tradicional, se fue perfeccionando a través del uso de lápices grafito, colores, sombras, biromes, estilógrafos y tinta china.
+        </p>
+        <p>
+          Su obra está profundamente influenciada por el universo sombrío de Junji Ito y la elegancia visual de Katsura Hoshino, lo que se refleja en ilustraciones que oscilan entre lo onírico, lo fantástico y lo perturbador. Lilith construye mundos donde se entrelazan lo emocional y lo simbólico, invitando al espectador a observar hasta el detalle más minúsculo.
+        </p>
       </div>
     </section>
 
+    <!-- Galería -->
     <section id="galeria" class="container">
-      <div class="section-head">
-        <h2>Galería de ilustraciones</h2>
-        <div class="filters">
-          <button class="filter-btn active" data-filter="all">Todas</button>
-          <button class="filter-btn" data-filter="tinta">Tinta</button>
-          <button class="filter-btn" data-filter="digital">otros</button>
-          <button class="filter-btn" data-filter="patrones">Patrones</button>
-        </div>
-      </div>
-
+      <h2>Galería</h2>
       <div class="grid gallery">
-        <!-- Reemplaza src con tus imágenes -->
-  
-           <!-- Modal para ampliar imágenes -->
-      <div id="modal" class="modal" aria-hidden="true">
-        <button class="modal-close" aria-label="Cerrar">×</button>
-        <img id="modal-img" src="" alt="Ampliación" />
-        <p id="modal-cap" class="small"></p>
+        <!-- Reemplaza las rutas con tus imágenes en la carpeta img -->
+        <figure class="card gallery-item">
+          <img src="img/obra1.jpg" alt="Ilustración 1 de Lilith Walker" />
+          <figcaption>Obra 1 — Técnica mixta</figcaption>
+        </figure>
+        <figure class="card gallery-item">
+          <img src="img/obra2.jpg" alt="Ilustración 2 de Lilith Walker" />
+          <figcaption>Obra 2 — Tinta china</figcaption>
+        </figure>
+        <figure class="card gallery-item">
+          <img src="img/obra3.jpg" alt="Ilustración 3 de Lilith Walker" />
+          <figcaption>Obra 3 — Grafito</figcaption>
+        </figure>
       </div>
     </section>
 
-    <section id="sobre-mi" class="container">
-      <h2>Sobre mí</h2>
-      <div class="grid two">
-        <div class="card">
-          <p>Ilustradora con enfoque en narrativas visuales. Me interesa el cruce entre arte y bienestar, por eso ofrezco el Taller de Dibujo Zentangle como actividad complementaria.</p>
-        </div>
-        <div class="card">
-          <ul class="list">
-             <li><strong>Campos:</strong> editorial, branding, decorativo.</li>
-            <li><strong>Herramientas:</strong> papel, rotuladores, Procreate/Illustrator.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
+    <!-- Servicios -->
     <section id="servicios" class="container">
       <h2>Servicios</h2>
-      <div class="grid three">
+      <div class="grid two">
         <div class="card">
-          <h3>Ilustración editorial</h3>
-          <p>Portadas, interiores y piezas visuales para libros, revistas y notas periodísticas.</p>
+          <h3>Dibujos personalizados</h3>
+          <p>Retratos y composiciones únicas creadas a medida, con técnicas tradicionales y estilo sombrío.</p>
         </div>
         <div class="card">
-          <h3>Patrones y surface design</h3>
-          <p>Diseños repetitivos para textiles, papelería y productos decorativos.</p>
-        </div>
-        <div class="card">
-          <h3>Comisiones personalizadas</h3>
-          <p>Proyectos personalizados Consultá disponibilidad.</p>
+          <h3>Taller virtual de dibujo Zentangle</h3>
+          <p>Actividad complementaria para explorar la creatividad y la calma a través de patrones repetitivos.</p>
+          <a href="zentangle.html" class="btn">Ver Taller</a>
         </div>
       </div>
     </section>
 
+    <!-- Contacto -->
     <section id="contacto" class="container">
       <h2>Contacto</h2>
-      <div class="grid two">
-        <div class="card">
-          <h3>Trabajemos juntos</h3>
-          <p>Contame tu idea y te respondo con propuestas y presupuesto.</p>
-          <form class="contact-form" action="#" method="post">
-            <label>Nombre</label>
-            <input type="text" name="nombre" placeholder="Tu nombre" required />
-            <label>Correo</label>
-            <input type="email" name="correo" placeholder="tu@email.com" required />
-            <label>Mensaje</label>
-            <textarea name="mensaje" rows="4" placeholder="¿Qué te gustaría crear?"></textarea>
-            <button type="submit" class="btn primary" disabled>Enviar (configurar backend)</button>
-            <p class="small">Tip: reemplazá “action” por tu servicio (Formspree, Netlify Forms, etc.).</p>
-          </form>
-        </div>
-        <div class="card">
-          <h3>Redes</h3>
-          <p><a href="#" aria-label="Instagram">Instagram</a> · <a href="#" aria-label="Behance">Behance</a> · <a href="#" aria-label="YouTube">YouTube</a></p>
-          <p class="small">Encontrá el <a href="zentangle.html">Taller de Zentangle</a> como actividad aparte.</p>
-        </div>
+      <div class="card">
+        <p>Si querés encargar una obra o participar en el taller, escribime a:</p>
+        <p><strong>Email:</strong> <a href="mailto:lilithwalkermua@gmail.com">lilithwalkermua@gmail.com</a></p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="small">© 2025 Ilustraciones. Todos los derechos reservados.</p>
-      <p class="small">Hecho con cariño y tinta.</p>
+      <p class="small">© 2025 Lilith Walker Ilustraciones. Todos los derechos reservados.</p>
     </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
-
