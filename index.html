@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ilustraciones | Portafolio</title>
+  <meta name="description" content="Portafolio de ilustraciones: galería, proyectos y contacto. Taller de Zentangle como actividad aparte." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <a href="index.html" class="brand-name">Ilustraciones</a>
+      </div>
+      <nav class="menu">
+        <a href="#galeria">Galería</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto" class="cta">Contacto</a>
+        <a href="zentangle.html" class="alt">Taller Zentangle</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Imágenes que cuentan historias</h1>
+        <p class="lead">Portafolio de ilustración: editoriales, personajes y patrones. Explora mi trabajo y descubrí el Taller de Dibujo Zentangle como actividad aparte.</p>
+        <div class="actions">
+          <a href="#galeria" class="btn primary">Ver galería</a>
+          <a href="zentangle.html" class="btn">Taller Zentangle</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Últimos proyectos</h3>
+        <ul class="list">
+          <li>Serie “Bosque onírico” — acuarelas</li>
+          <li>Personajes editoriales — tinta y digital</li>
+          <li>Patrones botánicos — vector</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="galeria" class="container">
+      <div class="section-head">
+        <h2>Galería de ilustraciones</h2>
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">Todas</button>
+          <button class="filter-btn" data-filter="acuarela">Acuarela</button>
+          <button class="filter-btn" data-filter="tinta">Tinta</button>
+          <button class="filter-btn" data-filter="digital">Digital</button>
+          <button class="filter-btn" data-filter="patrones">Patrones</button>
+        </div>
+      </div>
+
+      <div class="grid gallery">
+        <!-- Reemplaza src con tus imágenes -->
+        <figure class="card gallery-item" data-cat="acuarela">
+          <img src="https://picsum.photos/seed/acuarela1/600/400" alt="Ilustración en acuarela 1" />
+          <figcaption>“Bosque onírico I” — Acuarela</figcaption>
+        </figure>
+        <figure class="card gallery-item" data-cat="acuarela">
+          <img src="https://picsum.photos/seed/acuarela2/600/400" alt="Ilustración en acuarela 2" />
+          <figcaption>“Bosque onírico II” — Acuarela</figcaption>
+        </figure>
+        <figure class="card gallery-item" data-cat="tinta">
+          <img src="https://picsum.photos/seed/tinta1/600/400" alt="Ilustración en tinta 1" />
+          <figcaption>Personaje editorial — Tinta</figcaption>
+        </figure>
+        <figure class="card gallery-item" data-cat="tinta">
+          <img src="https://picsum.photos/seed/tinta2/600/400" alt="Ilustración en tinta 2" />
+          <figcaption>Retrato expresivo — Tinta</figcaption>
+        </figure>
+        <figure class="card gallery-item" data-cat="digital">
+          <img src="https://picsum.photos/seed/digital1/600/400" alt="Ilustración digital 1" />
+          <figcaption>Cartel editorial — Digital</figcaption>
+        </figure>
+        <figure class="card gallery-item" data-cat="patrones">
+          <img src="https://picsum.photos/seed/patrones1/600/400" alt="Patrón botánico 1" />
+          <figcaption>Patrón botánico — Vector</figcaption>
+        </figure>
+      </div>
+
+      <!-- Modal para ampliar imágenes -->
+      <div id="modal" class="modal" aria-hidden="true">
+        <button class="modal-close" aria-label="Cerrar">×</button>
+        <img id="modal-img" src="" alt="Ampliación" />
+        <p id="modal-cap" class="small"></p>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="container">
+      <h2>Sobre mí</h2>
+      <div class="grid two">
+        <div class="card">
+          <p>Ilustradora con enfoque en narrativas visuales y patrones orgánicos. Trabajo con acuarela, tinta y medios digitales. Me interesa el cruce entre arte y bienestar, por eso ofrezco el Taller de Dibujo Zentangle como actividad complementaria.</p>
+        </div>
+        <div class="card">
+          <ul class="list">
+            <li><strong>Estilos:</strong> acuarela, tinta, digital.</li>
+            <li><strong>Campos:</strong> editorial, branding, decorativo.</li>
+            <li><strong>Herramientas:</strong> papel algodón, rotuladores, Procreate/Illustrator.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="container">
+      <h2>Servicios</h2>
+      <div class="grid three">
+        <div class="card">
+          <h3>Ilustración editorial</h3>
+          <p>Portadas, interiores y piezas visuales para libros, revistas y notas periodísticas.</p>
+        </div>
+        <div class="card">
+          <h3>Patrones y surface design</h3>
+          <p>Diseños repetitivos para textiles, papelería y productos decorativos.</p>
+        </div>
+        <div class="card">
+          <h3>Comisiones personalizadas</h3>
+          <p>Retratos, láminas y proyectos a medida. Consultá disponibilidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="container">
+      <h2>Contacto</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Trabajemos juntos</h3>
+          <p>Contame tu idea y te respondo con propuestas y presupuesto.</p>
+          <form class="contact-form" action="#" method="post">
+            <label>Nombre</label>
+            <input type="text" name="nombre" placeholder="Tu nombre" required />
+            <label>Correo</label>
+            <input type="email" name="correo" placeholder="tu@email.com" required />
+            <label>Mensaje</label>
+            <textarea name="mensaje" rows="4" placeholder="¿Qué te gustaría crear?"></textarea>
+            <button type="submit" class="btn primary" disabled>Enviar (configurar backend)</button>
+            <p class="small">Tip: reemplazá “action” por tu servicio (Formspree, Netlify Forms, etc.).</p>
+          </form>
+        </div>
+        <div class="card">
+          <h3>Redes</h3>
+          <p><a href="#" aria-label="Instagram">Instagram</a> · <a href="#" aria-label="Behance">Behance</a> · <a href="#" aria-label="YouTube">YouTube</a></p>
+          <p class="small">Encontrá el <a href="zentangle.html">Taller de Zentangle</a> como actividad aparte.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="small">© 2025 Ilustraciones. Todos los derechos reservados.</p>
+      <p class="small">Hecho con cariño y tinta.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
